@@ -8,10 +8,11 @@ public class SumOfDigit{
         //checking whether the number is greater than 0
         while(number>0){
            
-            int digital=number%10;
-            sum+=digital;
-            number=number/10;
+            int digital=number%10;//gets the last number
+            sum+=digital;//gets sum of the last number
+            number=number/10;//delete the last number after sum
         }
         System.out.println(sum);
+        sc.close();
     }
 }
