@@ -33,3 +33,4 @@ public class SumNo {
         }
     }
 }
+// output: number:10; output:55
